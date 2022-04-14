@@ -112,3 +112,62 @@ body {
     display: inline-block;
     margin-top: 1em;
 }
+
+.dispositivos {
+    /* height: 100vh; */
+    margin-bottom: 10em;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 1em 2em;
+    list-style-type: none;
+}
+
+.lista__item {
+    color: var(--branco-principal);
+    font-size: 32px;
+    font-family: var(--font-default);
+    font-weight: var(--font-weight-primary);
+}
+
+.rodape {
+    margin: 2em 6em;
+    text-align: center;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lista__link a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--branco-principal);
+    font-family: var(--font-default);
+    font-weight: var(--font-weight-secondary);
+    transition: all 0.5s;
+}
+
+.lista__link a:hover, .lista__link a:focus {
+    color: var(--botao-azul);
+}
+
+.rodape__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    font-family: var(--font-default);
+    font-weight: var(--font-weight-secondary);
+    margin: 2em 0;
+}
